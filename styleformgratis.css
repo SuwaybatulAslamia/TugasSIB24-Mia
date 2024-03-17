@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 5;
+    padding: 5;
+}
+body {
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bg_form.PNG);
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+p {
+    text-align: center;
+    color:sandybrown;
+    font-weight: 545;
+}
+
+.container {
+    font-size: 25px;
+    margin-top: 40px;
+    padding-left: 110px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

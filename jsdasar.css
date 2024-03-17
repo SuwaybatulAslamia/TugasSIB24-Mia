@@ -1,0 +1,25 @@
+nav h1 {
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    padding: 0px 5% 0px 5%;
+    background-color:skyblue;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: seagreen;
+    margin: 50;
+}
+
+.kontak h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.kontak img {
+    padding-left: 430px;
+}
+
+.btn {
+    padding-left: 570px;
+}

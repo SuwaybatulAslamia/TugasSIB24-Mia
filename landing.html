@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel BlueBloom Delight</title>
+    <link rel="stylesheet" href="stylelanding.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <img src="img/logo_bluebloom.png" alt="">
+      </div>
+      <div class="center">
+        <ul>
+          <li><a href="">Tampilan Utama</a></li>
+          <li><a href="landingdom.html">Produk</a></li>
+          <li><a href="jsdasar.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <a href="formgratis.html">Klik Disini Gratis !</a>
+      </div>
+    </nav>
+
+    <div class="slides">
+      <div class="slide">
+        <img src="img/img_1.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/barcode.jpeg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/img_3.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/img_2.jpg" alt="">
+      </div>
+      <div class="navigation">
+        <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+        <a class = "next" onclick = "plusSlides(-1)">&#10095;</a>
+      </div>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        if (n > slides.length)
+        {
+          slideIndex = 1;
+        }
+        if (n < 1)
+        {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++)
+        {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex-1].style.display = "block";
+      }
+    </script>
+    <footer>
+      <h1>BlueBloom Delight</h1>
+      <br>
+      <h2>By : Suwaybatul Aslamia (FSWD1)</h2>
+    </footer>
+  </body>
+</html>
