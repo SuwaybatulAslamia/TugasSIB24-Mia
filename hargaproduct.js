@@ -12,7 +12,7 @@ fetch(endpoint)
             konten.innerHTML = `
             <main class = "grid">
             <article>
-                <img src="/img/foto_1.png" width="300px" height="300px"> 
+                <img src="img/foto_1.png" width="300px" height="300px"> 
                 <div class = "konten">
                     <h2>Nama Produk : "BlueBloom Delight"</h2>
                     <h3>Harga : "Rp. 15.000"</h3>
@@ -20,7 +20,7 @@ fetch(endpoint)
                 </div>
             </article>
             <article>
-                <img src="/img/foto_2.jpg" width="300px" height="300px">
+                <img src="img/foto_2.jpg" width="300px" height="300px">
                 <div class = "konten">
                     <h2>Nama Produk : "Lemonade"</h2>
                     <h3>Harga : "Rp. 11.000"</h3>
@@ -28,7 +28,7 @@ fetch(endpoint)
                 </div>
             </article>
             <article>
-                <img src="/img/foto_3.jpg" width="300px" height="300px">
+                <img src="img/foto_3.jpg" width="300px" height="300px">
                 <div class = "konten">
                     <h2>Nama Produk : "Pudding Bunga Telang"</h2>
                     <h3>Harga : "Rp. 10.000"</h3>
@@ -36,7 +36,7 @@ fetch(endpoint)
                 </div>
             </article>
             <article>
-                <img src="/img/foto_4.jpg" width="300px" height="300px">
+                <img src="img/foto_4.jpg" width="300px" height="300px">
                 <div class = "konten">
                     <h2>Nama Produk : "Bunga Telang Kering"</h2>
                     <h3>Harga : "Rp. 13.000"</h3>
@@ -44,7 +44,7 @@ fetch(endpoint)
                 </div>
             </article>
             <article>
-                <img src="/img/foto_5.jpg" width="300px" height="300px">
+                <img src="img/foto_5.jpg" width="300px" height="300px">
                 <div class = "konten">
                     <h2>Nama Produk : "Telang+Lemon"</h2>
                     <h3>Harga : "Rp. 14.000"</h3>
